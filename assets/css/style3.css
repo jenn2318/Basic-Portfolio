@@ -1,5 +1,4 @@
 
-
 header {
     display: flex;
     flex-direction: row;
@@ -17,33 +16,64 @@ header {
 header>h1{
 	color: white;
 	background-color: #4aaaa5;
-	padding: 30px;
-	margin: 0;
-	margin-left: 40px;
+	margin: 10px;
+	padding: 20px;
+	margin-left: 80px;
+	text-align: center;
+
     
 }
 
-.AboutMe {
+.nav {
+	color: #cccccc;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	margin-right: 200px;
+
+	
+
+}
+
+.nav > li {
+	display: inline-block;
+	padding-right: 20px;
+
+
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: #777777;
+
+}
+
+.nav > li > a: hover {
+	 color: #cccccc;
+}
+
+#AboutMe {
 	color: #4aaaa5;
+	margin: 20px;
 }
 
 h2 {
    color: #4aaaa5;
+
 }
 
 
-#container {
+/*#container {
 	background-color: white;
 }
+*/
 
-
-/*#menu ul{
-	margin: 0;
+/*#menu ul{*/
+	/*margin: 0;
 	padding: 0;
-}
+}*/
 
-#menu li {
-	list-style-type: none;
+/*#menu li {*/
+	/*list-style-type: none;
 	float:right;
 	display: block;
 	width: 60px;
@@ -52,7 +82,13 @@ h2 {
 */
 /*}*/
 
-nav >ul {
+/*#menu{
+
+	background-color: #cccccc;
+}*/
+
+
+/*nav >ul {
 	display: flex;
 	flex-direction: row;
 
@@ -60,53 +96,82 @@ nav >ul {
 
 
 nav >ul>li {
-	list-style-type: none;
+	list-style-type: none;*/
 }
 
 
-
-#menu li : hover 
-
-
-#container {
+.outercontainer {
 	width: 960px;
+	margin: 0;
+	background-image: url(assets/images/redox_02_@2X.png);
+	background-size: cover;
+	/*background-repeat: repeat-x;*/
+	
+
 }
 
 
 #image {
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
+	margin-top: 5px;
+	padding: 5px;
+	float: left;
 }
 
 p{
-	float: left;
+	color: #777777;
+	font-style: 'Arial', 'Helvetica Neue', sans-serif;
+	
+
 }
 
-#maincontent {
+.innercontainer1 {
 	background-color: #ffffff;
-	width: 50%;
+	width: 650px;
 	height:400px;
 	padding: 20px;
 	border: 1px solid;
-	border-color: gray;
+	border-color: #cccccc;
 	margin: 20px;
 	float: left;
-}
 
 
-#sidebar {
-	width: 50%;
-    height: 150px;
-    padding: 20px;
-    margin: 20px;
-    float: right;
 
 }
 
+.innercontainer2 {
+	width: 650px;
+	height: 400px;
+	
+}
 
-#footer {
-	background-color: #ffffff;
-	height: 100px;
+
+
+
+.sidebar{
+	float: right;
+	position: absolute;
+    top: 125px;
+    right: 340px;
+	width: 270px;
+	height: 200px;
+	border: 1px solid #cccccc;
+	box-shadow: 1px;
+	text-align:center;
+
+}
+
+
+
+#footer{ 
+	background-color: #666666;
+	color: #cccccc;
+	height: 70px;
 	margin: 20px;
+	width: 100%;
 	clear: both;
+	text-align: center;
+	border-top: 8px solid #4aaaa5;
+	/*margin-bottom: 0;*/
 }
