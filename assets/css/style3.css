@@ -3,20 +3,22 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-	/*background-color: #4aaaa5;*/
+	background-color: white;
 	/*font-family: 'Georgia', Times, Times New Roman, serif;*/
 	/*margin-top: 0;*/
 	/*height: 80px;*/
 	width: 100%;
 	/*text-align: center;*/
 	/*color: white;*/
+	border-top: 2px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
 }
 
 
 header>h1{
 	color: white;
 	background-color: #4aaaa5;
-	margin: 10px;
+	margin: 0;
 	padding: 20px;
 	margin-left: 80px;
 	text-align: center;
@@ -62,98 +64,47 @@ h2 {
 }
 
 
-/*#container {
-	background-color: white;
-}
-*/
-
-/*#menu ul{*/
-	/*margin: 0;
-	padding: 0;
-}*/
-
-/*#menu li {*/
-	/*list-style-type: none;
-	float:right;
-	display: block;
-	width: 60px;
-	width: 40px;
-	text-align: center;
-*/
-/*}*/
-
-/*#menu{
-
-	background-color: #cccccc;
-}*/
-
-
-/*nav >ul {
-	display: flex;
-	flex-direction: row;
-
-}
-
-
-nav >ul>li {
-	list-style-type: none;*/
-}
-
-
-.outercontainer {
-	width: 960px;
+body {
 	margin: 0;
-	background-image: url(assets/images/redox_02_@2X.png);
+	background-image: url('../../assets/images/redox_02_@2X.png');
 	background-size: cover;
-	/*background-repeat: repeat-x;*/
-	
-
 }
+
 
 
 #image {
 	width: 200px;
 	height: 200px;
-	margin-top: 5px;
-	padding: 5px;
+	padding: 0 15px 15px 0;
 	float: left;
 }
 
 p{
 	color: #777777;
 	font-style: 'Arial', 'Helvetica Neue', sans-serif;
-	
+
 
 }
 
 .innercontainer1 {
 	background-color: #ffffff;
 	width: 650px;
-	height:400px;
 	padding: 20px;
 	border: 1px solid;
 	border-color: #cccccc;
-	margin: 20px;
+	margin: 10px 20px 0 80px;
 	float: left;
 
-
-
 }
-
-.innercontainer2 {
-	width: 650px;
-	height: 400px;
-	
-}
-
 
 
 
 .sidebar{
+	background-color: #ffffff;
 	float: right;
 	position: absolute;
-    top: 125px;
-    right: 340px;
+    top: 108px;
+    right: 300px;
 	width: 270px;
 	height: 200px;
 	border: 1px solid #cccccc;
@@ -168,10 +119,12 @@ p{
 	background-color: #666666;
 	color: #cccccc;
 	height: 70px;
-	margin: 20px;
 	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
 	clear: both;
 	text-align: center;
 	border-top: 8px solid #4aaaa5;
-	/*margin-bottom: 0;*/
+	
 }
