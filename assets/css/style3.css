@@ -58,8 +58,14 @@ header>h1{
 	margin: 20px;
 }
 
+#Contact {
+	color:#4aaaa5;
+	margin: 20px;
+}
+
 h2 {
    color: #4aaaa5;
+
 
 }
 
@@ -71,6 +77,31 @@ body {
 }
 
 
+label{
+	display: block;
+	margin: 5px 0 1px 1px;
+	color: #777777;
+}
+
+input{
+	width: 44%;
+	height: 30px;
+}
+
+textarea{
+	width: 70%;
+	height: 120px;
+}
+
+.btn{
+	background-color: #4aaaa5;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+
+}
 
 #image {
 	width: 200px;
@@ -80,9 +111,22 @@ body {
 }
 
 p{
-	color: #777777;
-	font-style: 'Arial', 'Helvetica Neue', sans-serif;
+	color: #777777; 
+	font-style: 'Arial', 'Helvetica Neue', 'Helvetica' sans-serif;
 
+
+}
+
+.container1{
+    background-color: #ffffff;
+	width: 650px;
+	height: 400px;
+	padding: 20px;
+	border: 1px solid;
+	border-color: #cccccc;
+	/*margin: 10px 20px 0 100px;*/
+	margin: 30px 20px 0 80px;
+	float: left;
 
 }
 
@@ -114,10 +158,24 @@ p{
 }
 
 
+.sidebar2{
+	background-color: #ffffff;
+	float: right;
+	position: absolute;
+    top: 125px;
+    right: 270px;
+	width: 270px;
+	height: 200px;
+	border: 1px solid #cccccc;
+	box-shadow: 1px;
+	text-align:center;
+
+}
+
 
 #footer{ 
 	background-color: #666666;
-	color: #cccccc;
+	color: #777777;
 	height: 70px;
 	width: 100%;
 	position: fixed;
